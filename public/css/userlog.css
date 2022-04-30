@@ -1,0 +1,99 @@
+.background {
+    background-image: url("/photos/sign.jpg");
+
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .ml3 {
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+  .labels{
+    margin-left: 5px;
+    font-size:20px;
+    color: #000;
+  }
+  .inputs  {
+  width: 100%;
+    padding: 15px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+  
+  
+  }
+  .center {
+    background-color:rgb(221, 212, 212);
+    vertical-align: middle;
+    margin: auto;
+    width: 430px;
+    border: 3px  ;
+    padding: 6px;
+    opacity: 0.9;
+    border-radius: 30px;
+  
+  }
+  .sign{
+    margin: auto;
+    padding: 10px;
+   
+  
+  }
+  .buttons {
+      width: 100%;
+    display: inline;
+    vertical-align: middle;
+    border: none;
+    background-color: rgb(70, 180, 147);
+    color: white;
+    padding: 14px 14px;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+  }
+   
+   
+  .title{
+   text-align:center;
+  color:rgb(0, 0, 0);
+  font-family:Berlin Sans FB Demi; 
+  font-size:40px;
+  margin-top: 20px;
+  font-weight: bold;
+  }
+
+  .fade-in-image {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+  
